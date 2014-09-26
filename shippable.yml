@@ -17,6 +17,10 @@ after_script:
   - mkdir -p shippable/codecoverage
   - mv target/scala-2.10/coverage-report/cobertura.xml shippable/codecoverage/
 
+branches:
+  only:
+    - master
+
 notifications:
   email:
     - exampleone@org.com    
