@@ -20,3 +20,5 @@ after_script:
 notifications:
   email:
     - exampleone@org.com    
+
+cache: true
